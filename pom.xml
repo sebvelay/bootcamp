@@ -39,6 +39,11 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.5</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.rawls238</groupId>
+            <artifactId>Scientist4JCore</artifactId>
+            <version>0.6</version>
+        </dependency>
     </dependencies>
 
     <build>
