@@ -14,7 +14,7 @@ public class HereosController {
 
     private HeroesService heroesService;
 
-    public HereosController(@Qualifier("legacy") HeroesService hereosService) {
+    public HereosController(@Qualifier("refacto") HeroesService hereosService) {
         this.heroesService = hereosService;
     }
 
